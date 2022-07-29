@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-item a:hover{
+    color: #CFB997
+}
+
+.brand{
+    font-size: 15px;
+}
+
+.brand .icon{
+    font-size: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large{
+    font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    opacity: 0.1;
+}
+
+.card-green{
+    background: linear-gradient(135deg, #0F3D3E 0%, #2e8e90 100%) !important;
+    color: #fff;
+}
+
+.my-btn:hover{
+    color:#CFB997;
+}
+
+.delete-form{
+    display: inline;
+}
+
+.text-as-white{
+    color:#F1F1F1;
+}
+
+.text-beige{
+    color: #CFB997
+}
+
+.text-green{
+    color: #0F3D3E
+}
+
+.text-as-black{
+    color: #100F0F
+}
+
+.bg-as-white{
+    background-color:#F1F1F1
+}
+
+.bg-green{
+    background-color:#0F3D3E
+}
+
+.bg-beige{
+    background-color:#CFB997
+}
+
+@media (min-width: 576px){
+    .brand{
+        font-size: 22px;
+    }
+
+    .head{
+        font-size: 36px;
+    }
+
+    .table-show{
+        font-size: 20px;
+    }
+}
